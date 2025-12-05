@@ -30,3 +30,25 @@ console.log(typeof $c)
 console.log(typeof $d)
 console.log(typeof $e)
 console.log(typeof pi)
+document.getElementById("result").textContent = "My name is " + name;
+let cap ="fkwfjopwJFOOW";
+document.getElementById("result").textContent = cap
+let username ="ayesha123";
+let myname = "Ayesha Ali";
+let message = "Hello World";
+let age1 =15 ;
+let qualification = "Certified Mobile Application Development";
+alert(message);
+alert("My name is " +myname+"."  + "\nI am "+age1 +"years old.")
+alert(age1)
+alert(qualification)
+let pizza = "PIZZA\nPIZZ\nPIZ\nPI\nP";
+alert(pizza);
+let email = "aisha023456789@gmail.com";
+alert("my Email Address is " + email +".")
+let book = "'A smarter way to learn javascript'";
+alert("I am trying to learn from the book " + book + ".")
+let disbrowser = "Yah! I can write HTML content through javascript";
+document.getElementById("alert-msg").textContent = disbrowser
+let design ="“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
+alert(design)
