@@ -1,8 +1,3 @@
-
-console.log("This is a sample JavaScript file.");
-
- alert("hello world! \nThis is my first alert box!");
-
 let a = 10;
 let b = 20;
 console.log(a + b);
@@ -14,7 +9,6 @@ let e = b-a;
 let name = "AYESHA";
 let age = 16;
 let city = "karachi";
-console.log("My name is " + name + ", I am " + age + " years old and I live in " + city + ".");
 const fvrtcolor = "black and blue";
 console.log("My fvrt color is "+fvrtcolor) 
 console.log(typeof a)
@@ -52,3 +46,10 @@ let disbrowser = "Yah! I can write HTML content through javascript";
 document.getElementById("alert-msg").textContent = disbrowser
 let design ="“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
 alert(design)
+let pix = 20;
+if (pix > 18){
+    console.log("You are eligible to vote.");
+}
+else{
+    console.log("You are not eligible to vote.");
+}
